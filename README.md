@@ -9,5 +9,5 @@
  ## My Interests
   - My interests include gaming, riding my motorcycle, going to the beach, and a good glass of wine or beer. I generally just enjoy relaxing by a fire pit sipping a nice glass of wine.
  ## Websites I Recommend
-  - [Blackboard](www.blackboard.waketech.edu) - Very important for completing course assignments.
-  - [Youtube](www.youtube.com) - Useful tool both for educationa and recreation.
+  - [Blackboard](https://www.blackboard.waketech.edu/) - Very important for completing course assignments.
+  - [Youtube](https://www.youtube.com/) - Useful tool both for educationa and recreation.
