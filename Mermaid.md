@@ -29,14 +29,14 @@ flowchart TD
 ```
 
 
-FlowChart Description:
-Integer Secret: Creates the secret integer
-Intger Guess: Integer for guess
-Secret=random(100)+1: Randomizes secret integer
-Output "Please enter a guess between 1 and 100" : Provides the original output to prompt user to enter an Integer
-Input Guess: What the user inputs as an integer
-Guess > secret: True or false depending on user input and value of the randomized secret Integer
-Guess < Secret: True or false depending on user input and value of the randomized secret Integer
-Output Low or High: Will notify user that guess is to low or high creating a loop until secret integeris guessed correctly
-Guess !=secret: Will determine if guess is correct or not either looping back to Input guess or output of correct answer
+FlowChart Description:<br><br>
+Integer Secret: Creates the secret integer<br>
+Integer Guess: Integer for guess<br>
+Secret=random(100)+1: Randomizes secret integer<br>
+Output "Please enter a guess between 1 and 100" : Provides the original output to prompt user to enter an integer<br>
+Input Guess: What the user inputs as an integer<br>
+Guess > secret: True or false depending on user input and value of the randomized secret integer<br>
+Guess < Secret: True or false depending on user input and value of the randomized secret integer<br>
+Output Low or High: Will notify user that guess is to low or high<br>
+Guess !=secret: Will determine if guess is correct or not either looping back to Input guess or output of correct answer<br>
 Output Correct: Notifies user that answer is correct.
