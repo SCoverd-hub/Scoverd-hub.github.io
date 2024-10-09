@@ -1,4 +1,7 @@
 ```mermaid
 flowchart TD
-	Start([Start]) --> End([End])
+	Main([Main]) --> 
+	Integer[[Integer secret]] -->
+	
+	End([End])
 ```
