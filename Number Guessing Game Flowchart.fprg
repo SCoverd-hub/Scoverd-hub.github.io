@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="For Loop Example"/>
+        <attribute name="authors" value="Devin Cook"/>
+        <attribute name="about" value="This is basic For Loop that outputs the numbers from 1 to 100."/>
+        <attribute name="saved" value="2024-10-09 12:31:24 PM"/>
+        <attribute name="created" value="V29yaztJVFJFLUlPSVQtMDAxOzIwMjQtMTAtMDk7MTI6MjA6MTcgUE07MjU0Ng=="/>
+        <attribute name="edited" value="V29yaztJVFJFLUlPSVQtMDAxOzIwMjQtMTAtMDk7MTI6MzE6MjQgUE07MjsyNjU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="secret" type="Integer" array="False" size=""/>
+            <declare name="guess" type="Integer" array="False" size=""/>
+            <assign variable="secret" expression="random(100) + 1"/>
+            <output expression="&quot;Please enter a guess between 1 and 100&quot;" newline="True"/>
+            <do expression="guess != secret">
+                <input variable="guess"/>
+                <comment text="Two if statements are used since &quot;false&quot; will catch guess == secret"/>
+                <if expression="guess &gt; secret">
+                    <then>
+                        <output expression="&quot;Guess is too HIGH&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+                <if expression="guess &lt; secret">
+                    <then>
+                        <output expression="&quot;Guess is too LOW&quot;" newline="True"/>
+                    </then>
+                    <else/>
+                </if>
+            </do>
+            <output expression="&quot;Correct!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
